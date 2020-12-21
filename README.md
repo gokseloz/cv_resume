@@ -18,8 +18,8 @@
   
 ## Short Video
 <ul>
-<li style="color:red">In issues, you can find a short video of the website <br> </li>
-                          
+<li>In issues, you can find a short video of the website <br> </li>
+ &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp or
 <li>you can reach it: https://user-images.githubusercontent.com/72968539/102824780-c9f45b00-43dd-11eb-8726-5d4de74b376d.mp4 </li>
  </ul>
 

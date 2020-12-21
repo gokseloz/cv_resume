@@ -3,9 +3,9 @@ Cloned Kerge Theme: One Page: Demo 2 Dark <br>
 Link for Kerge Theme : https://lmpixels.com/wp/kerge-wp/demo-op-2-dark/
 
 ## Why did I do this?
-<ul>
+<ol>
 I implemented this clone website theme in order to make practices and learn faster. / Practices makes perfect /
- </ul>
+ </ol>
 
 ## How did I do this?
 Project is created with: HTML, CSS & JavaScript. <br>

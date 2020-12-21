@@ -40,16 +40,23 @@
 ![0](https://user-images.githubusercontent.com/72968539/102826822-b5b25d00-43e1-11eb-9ce2-aedc8ad36865.png)
 
 <ul>
- <li>When its 900px, header top with hamburger-menu is created as fixed on top and left header is showed when clicking hamburger-menu. It can be seen on the next screenshots </li>
- </ul>
+<li>When its 900px, header top with hamburger-menu is created as fixed on top and left header is showed when clicking hamburger-menu. It can be seen on the next screenshots </li>
+</ul>
  
 ![1](https://user-images.githubusercontent.com/72968539/102826916-e2667480-43e1-11eb-8b51-28bd27e714a4.png)
 
 <ul>
- <li>After clicking hamburger-menu, left-header slides to the page </li>
- </ul>
+<li>After clicking hamburger-menu, left-header slides to the page </li>
+</ul>
  
 ![2](https://user-images.githubusercontent.com/72968539/102827200-6d476f00-43e2-11eb-99bf-314332fcc8ee.png)
+
+<ul>
+<li>When its 620px and lower, every component is positioned one under the other </li>
+</ul>
+
+![3](https://user-images.githubusercontent.com/72968539/102827368-bbf50900-43e2-11eb-8c3e-961a510fa245.png)
+
 
 
 

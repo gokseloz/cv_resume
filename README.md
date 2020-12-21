@@ -13,7 +13,7 @@
 <ul>
 <li>Project is created with: HTML, CSS & JavaScript.</li> <br>
 <li>For CSS: LESS preprocessor is applied. In order to compile LESS files to CSS, node-sass with npm is utilized.</li> <br>
-<li>For JS: JQuery </li>
+<li>For JS: JQuery is applied</li>
   </ul>
 
 

@@ -33,10 +33,14 @@
 </ul>
 
 ## ScreenShots
+<ul>
+ <li>Desktop version without any responsivity</li>
+ </ul>
+
 ![0](https://user-images.githubusercontent.com/72968539/102826822-b5b25d00-43e1-11eb-9ce2-aedc8ad36865.png)
 
 <ul>
- <li>when its 900px, header top with hamburger-menu is created as fixed on top and left header is showed when clicking hamburger-menu. It can be seen on the next screenshots </li>
+ <li>When its 900px, header top with hamburger-menu is created as fixed on top and left header is showed when clicking hamburger-menu. It can be seen on the next screenshots </li>
  </ul>
  
 ![1](https://user-images.githubusercontent.com/72968539/102826916-e2667480-43e1-11eb-8b51-28bd27e714a4.png)

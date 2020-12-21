@@ -19,7 +19,7 @@
 ## Short Video
 <ul>
 <li>In issues, you can find a short video of the website <br> </li>
- <p style="text-align: center">or</p>  
+ <p>or</p>  
 <li>you can reach it: https://user-images.githubusercontent.com/72968539/102824780-c9f45b00-43dd-11eb-8726-5d4de74b376d.mp4 </li>
  </ul>
 

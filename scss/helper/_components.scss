@@ -1,0 +1,250 @@
+//inner: there is a div with has "inner" class in every section
+.inner {
+    width: 100%;
+    height: auto;
+    padding: 40px 70px 70px;
+    box-sizing: border-box;
+
+    @media (max-width:900px) {
+        padding: 25px 30px 60px;
+    }
+}
+
+//end of inner
+
+//title: that is a block that contains section-title and section-description
+.title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+
+    @media (max-width:1000px) {
+        margin-bottom: 30px;
+    }
+}
+
+//end of title
+
+//section title: ex; About Me, Resume, Portfolio, Blog, Contact
+.section-title {
+    color: $primary;
+    font-weight: 400;
+    position: relative;
+    z-index: 0;
+    padding: 5px 20px 5px 78px;
+    background-color: $yellow;
+    margin-left: -80px;
+    text-shadow: 1px 1px 1px rgba(#000, 0.2);
+
+    @media (max-width:1000px) {
+        font-size: 20px;
+    }
+
+    &::before {
+        content: "";
+        position: absolute;
+        bottom: -10px;
+        left: -10px;
+        width: 10px;
+        border-bottom: 10px solid transparent;
+        border-right: 10px solid $yellow;
+    }
+}
+
+//end of section title
+
+//section description: short description which explains the highlights of the page, located near the title, ex;Developer, Determined, Creative,
+.section-description {
+    margin-left: 20px;
+    color: $secondary;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+
+    @media (max-width:1000px) {
+        font-size: 12px;
+    }
+}
+
+//end of description
+
+//box-headers ex:testimonials, services, clients, education...
+.box-heading {
+    color: $primary;
+    font-weight: 400;
+    font-size: 21px;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 3px;
+
+    //box-header's underline
+    &::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: $yellow;
+    }
+}
+
+//end of box-headers ex:testimonials, services, clients, education...
+
+//button : at the bottom of some sections, there is a button, for ex; "Download CV" button in resume section, "See All Posts" button in blog section...
+.btn {
+    font-size: 14px;
+    color: $primary;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid $yellow;
+    padding: 10px 20px;
+    transition: all .5s;
+
+    @media (max-width:1000px) {
+        font-size: 13px;
+        padding: 8px 15px;
+    }
+
+    &:hover {
+        background-color: $yellow;
+        color: $gray;
+    }
+}
+
+//end of button
+
+//timeline item in resume section: that expresses the each time cycle in the resume section
+.timeline-item {
+    margin-left: 30px;
+    margin-top: 25px;
+}
+
+.item-period {
+    display: inline-block;
+    background-color: $green;
+    color: #fff;
+    padding: 5px 10px 5px 37px;
+    margin-left: -37px;
+    position: relative;
+    font-size: 14px;
+
+    @media (max-width:1000px) {
+        font-size: 13px;
+    }
+
+    &::before {
+        content: "";
+        position: absolute;
+        bottom: -7px;
+        left: -10px;
+        width: 10px;
+        border-bottom: 7px solid transparent;
+        border-right: 7px solid #9bd952;
+    }
+}
+
+.item-title {
+    color: $primary;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: -5px;
+
+    @media (max-width:1000px) {
+        font-size: 14px;
+        margin-bottom: 2px;
+    }
+
+    @media (max-width:620px) {
+        margin-top: 20px;
+        font-size: 16px;
+        line-height: 15px;
+    }
+}
+
+.item-subtitle {
+    display: inline-block;
+    color: $gray-light;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.item-info {
+    color: $secondary;
+    font-size: 13px;
+    font-family: 'Lato', sans-serif;
+    line-height: 25px;
+
+    @media (max-width:1000px) {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    @media (max-width:620px) {
+        font-size: 14px;
+        line-height: 25px;
+    }
+}
+
+//end of timeline item
+
+//skills in resume section: this section includes each skill for ex: Web Design, HTML, CSS, JavaScript...
+.skill-name {
+    color: $primary;
+    font-weight: 400;
+    margin-top: 10px;
+    font-size: 14px;
+    margin-bottom: 5px;
+
+    @media (max-width:1000px) {
+        font-size: 13px;
+    }
+
+    @media (max-width:620px) {
+        font-size: 14px;
+    }
+}
+
+.skill-container {
+    width: 100%;
+    border: 2px solid $yellow;
+    height: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+
+}
+
+.skill-percentage {
+    background-color: $yellow;
+    height: 6px;
+    border-radius: 10px;
+    margin-left: 2px;
+}
+
+//end of skills
+
+//filter button in portfolio section: for ex; illustration, media and video buttons
+.filter-link {
+    color: $secondary;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    display: inline-block;
+    padding: 7px 10px;
+    border: 2px solid $gray;
+    transition: border .2s;
+    cursor: pointer;
+
+    &:hover {
+        border: 1px solid #fff;
+    }
+
+    &.active {
+        border: 1px solid $yellow;
+    }
+}
+
+//end of filter button

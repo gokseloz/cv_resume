@@ -1,0 +1,12 @@
+@mixin flexCentering($direction:row){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: center;
+    align-items: center;
+};
+
+@mixin elementCentering{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

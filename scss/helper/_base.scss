@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Oswald', sans-serif;
+    
+};
+
+html {
+    scroll-behavior: smooth;
+}
+
+.main {
+    width: 77%;
+    height: auto;
+    margin-left: 23%;
+
+    @media (max-width:900px) {
+        margin-left: 0; 
+        width: 100%;
+    }
+   
+    &-wrapper {
+        height: auto;
+        width: 100%;
+        position: relative;
+    }
+}
+
+.page{
+    background-color: #000;
+    width: 100%;
+    height: auto;
+    
+}
+
+
+

@@ -1,0 +1,70 @@
+.resume {
+    width: 100%;
+    height: auto;
+    background-color: $gray-dark;
+    margin-top: 10px;
+
+    .resume-content-row1 {
+        display: flex;
+        margin-bottom: 40px;
+
+        @media (max-width:620px) {
+            flex-direction: column;
+        }
+
+        .row1-column1,
+        .row1-column2,
+        .row1-column3 {
+            width: 33.333%;
+            padding-right: 10px;
+
+            @media (max-width:620px) {
+                width: 100%;
+            }
+        }
+
+        .timeline {
+            margin-top: 20px;
+            border-left: 1px solid rgba(#f4f9ed, .1);
+            padding-bottom: 30px;
+
+            @media (max-width:620px) {
+                margin-bottom: 40px;
+            }
+        }
+
+        .skills {
+            display: flex;
+            flex-direction: column;
+            margin-top: 10px;
+
+            .skill-percentage-web {
+                width: 50%;
+            }
+
+            .skill-percentage-graphic {
+                width: 40%;
+            }
+
+            .skill-percentage-print {
+                width: 40%;
+            }
+
+            .skill-percentage-html {
+                width: 70%;
+            }
+
+            .skill-percentage-css {
+                width: 70%;
+            }
+
+            .skill-percentage-js {
+                width: 40%;
+            }
+
+            .skill-percentage-jquery {
+                width: 30%;
+            }
+        }
+    }
+}

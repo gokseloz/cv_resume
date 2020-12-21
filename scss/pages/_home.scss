@@ -1,0 +1,82 @@
+.home {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://images.pexels.com/photos/169573/pexels-photo-169573.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") center center / cover;
+    @include flexCentering;
+    position: relative;
+
+    &-title {
+        position: absolute;
+        color: #fff;
+        @include elementCentering;
+        @include flexCentering(column);
+        text-align: center;
+        width: 100%;
+
+        h2 {
+            font-size: 70px;
+            font-weight: 400;
+
+
+            @media (max-width:1000px) {
+                font-size: 60px;
+            }
+
+            @media (max-width:620px) {
+                font-size: 50px;
+            }
+        }
+
+        .wrapper {
+            position: relative;
+            width: 100%;
+            text-align: center;
+            user-select: none;
+            height: auto;
+        }
+
+        p {
+            font-size: 21px;
+            font-weight: 300;
+            position: absolute;
+            width: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+
+            @media (max-width:620px) {
+                font-size: 18px;
+            }
+        }
+
+        .p1 {
+            animation: profAnim 5s infinite linear forwards;
+        }
+
+        .p2 {
+            animation: profAnim 5s 2.5s infinite linear backwards;
+        }
+
+        @keyframes profAnim {
+            0% {
+                opacity: 0
+            }
+
+            25% {
+                opacity: 0
+            }
+
+            50% {
+                opacity: 1
+            }
+
+            75% {
+                opacity: 0
+            }
+
+            100% {
+                opacity: 0
+            }
+
+        }
+    }
+}

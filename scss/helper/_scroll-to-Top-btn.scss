@@ -1,0 +1,26 @@
+#button {
+    position: fixed;
+    bottom: 10px;
+    right: 15px;
+    cursor: pointer;
+    visibility: hidden;
+    z-index: 1000;
+
+    &.show {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    i {
+        font-size: 24px;
+        font-weight: 300;
+        color: $gray-dark;
+        padding: 10px 12px;
+        background-color: #fafafa;
+        transition: color .3s;
+
+        &:hover {
+            color: $yellow;
+        }
+    }
+}

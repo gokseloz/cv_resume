@@ -1,0 +1,117 @@
+.blog {
+    width: 100%;
+    height: auto;
+    background-color: $gray-dark;
+    margin-top: 10px;
+
+    .blog-content-row1 {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        @media (max-width:620px) {
+            flex-direction: column;
+        }
+    }
+
+    .post {
+        width: 48%;
+        box-sizing: border-box;
+        position: relative;
+        margin-bottom: 40px;
+        height: auto;
+
+        @media (max-width:1000px) {
+            margin-bottom: 30px;
+        }
+
+        @media (max-width:620px) {
+            width: 100%;
+        }
+
+        &:hover img {
+            transform: scale(1.1);
+        }
+
+        .post-img {
+            position: relative;
+            width: 100%;
+            height: 80%;
+            overflow: hidden;
+
+            @media (max-width:1000px) {
+                height: 70%;
+            }
+
+            @media (max-width:620px) {
+                height: 10%;
+            }
+
+            img {
+                position: relative;
+                width: 100%;
+                height: 100%;
+                transition: transform .3s;
+            }
+
+            .post-link {
+                position: absolute;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                right: 0;
+            }
+        }
+
+        .post-info {
+            position: relative;
+            height: 20%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 10px 20px;
+            background: $gray;
+
+            @media (max-width:620px) {
+                height: 40%;
+                padding: 10px 20px;
+                margin-top: -5px;
+                line-height: 30px;
+            }
+
+            .post-date {
+                color: $gray-light;
+                font-size: 12px;
+                font-family: 'Lato', sans-serif;
+            }
+
+            .post-title {
+                color: $primary;
+                font-weight: 400;
+                margin-top: 3px;
+                width: 100%;
+                height: auto;
+
+                @media (max-width:1000px) {
+                    font-size: 14px;
+                }
+
+                @media (max-width:620px) {
+                    font-size: 16px;
+                }
+            }
+        }
+
+        .post-subtitle {
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            color: #fff;
+            background-color: $gray-dark;
+            font-size: 12px;
+            font-family: 'Lato', sans-serif;
+            padding: 2px 5px;
+        }
+    }
+}

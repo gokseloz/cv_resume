@@ -1,0 +1,195 @@
+.header {
+    width: 22%;
+    background-color: $gray-dark;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    box-sizing: border-box;
+    z-index: 50;
+    transition: margin-left .3s cubic-bezier(1, 0.2, 0.2, 1);
+
+    &.is-expanded{
+        margin-left: 0;
+    }
+
+    @media (max-width:900px) {
+       margin-left: -100%;
+       margin-top: 50px;
+       width: 270px;
+       box-shadow: 1px 0px 10px rgba(#000 , 0.3)
+    }
+
+    &-content {
+        @include flexCentering(column);
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    &-img {
+        i {
+            font-size: 100px;
+            color: $secondary;
+
+            @media (max-width:1000px) {
+                font-size: 70px;
+            }
+        }
+    }
+
+    &-title {
+        margin-top: 10px;
+        line-height: 40px;
+        color: $primary;
+        @include flexCentering(column);
+        
+        @media (max-width:1000px) {
+            line-height: 30px;
+        }
+
+        .main-title{
+            font-weight: 400;
+        }
+
+        .sub-title{
+            font-weight: 300;
+
+        }
+    }
+
+    &-nav {
+        margin-top: 30px;
+        width: 100%;
+
+        &-item {
+            width: 100%;
+
+            &:nth-last-child(1) {
+                border-bottom: 1px solid rgba($secondary , 0.1);
+            }
+
+            li {
+                width: 100%;
+                text-align: center;
+            }
+        }
+
+        &-link {
+            position: relative;
+            font-size: 15px;
+            display: inline-block;
+            width: 100%;
+            box-sizing: border-box;
+            color: $primary;
+            padding: 10px 25px;
+            border-top: 1px solid rgba($secondary , 0.1);
+            transition: background-color .2s ease-in-out, border-top .2s ease-in-out;
+            box-sizing: border-box;
+
+            &::before {
+                content: "";
+                position: absolute;
+                display: block;
+                width: 2px;
+                height: 100%;
+                right: 0;
+                bottom: 0;
+                background-color: $yellow;
+                opacity: 0;
+                box-sizing: border-box;
+                transition: all 0.2s ease-in-out;
+            }
+
+            &.target{
+                background-color: $gray;
+                border-top: 1px solid $gray;
+            }
+
+            &.target::before{
+                opacity: 1;
+            }
+
+            &:hover {
+                background-color: $gray;
+                border-top: 1px solid $gray;
+            }
+        }
+    }
+
+    &-social {
+        width: 100%;
+        margin-top: 50px;
+        @include flexCentering();
+
+        &-link {
+            display: inline-block;
+            padding: 7px;
+            @include flexCentering();
+            background-color: $gray;
+            margin-left: 10px;
+            transition: background-color .5s;
+            
+            &:hover {
+                background-color: $yellow;
+            }
+
+            &:hover i {
+                color: #fff;
+            }
+
+            i {
+                color: #aaa;
+                transition: color .5s;
+                font-size: 18px;
+            }
+        }
+    }
+}
+
+.header-mobile {
+    position: fixed;
+    left: 0;
+    right: 0;
+    width: auto;
+    z-index: 1;
+    background-color: $gray-dark;
+    display: none;
+    height: 50px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    border-bottom:  1px solid rgba($secondary , 0.3);
+
+    @media (max-width:900px) {
+        display: flex;
+    }
+
+    .mobile-title-block {
+
+        display: flex;
+        align-items: center;
+        color: $primary;
+        margin-left: 20px;
+
+        .mobile-logo {
+            color: $primary;
+            font-size: 30px
+        }
+
+        .mobile-title {
+            font-size: 18px;
+            margin-left: 10px;
+        }
+    }
+
+    .mobile-hamburgerMenu {
+        @include flexCentering;
+        color: $primary;       
+        width: 50px;
+        height: 100%;
+
+        i {
+            font-size: 20px;
+        }
+    }
+}

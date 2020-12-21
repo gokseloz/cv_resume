@@ -4,7 +4,7 @@ Link for Kerge Theme : https://lmpixels.com/wp/kerge-wp/demo-op-2-dark/
 
 ## Why did I do this?
 <ol>
-I implemented this clone website theme in order to make practices and learn faster. / Practices makes perfect /
+<li>I implemented this clone website theme in order to make practices and learn faster. / Practices makes perfect /</li>
  </ol>
 
 ## How did I do this?

@@ -10,11 +10,19 @@
  </ul>
  
 ## How did I do this?
+### Technologies
 <ul>
 <li>Project is created with: HTML, CSS & JavaScript.</li> <br>
 <li>For CSS: LESS preprocessor is applied. In order to compile LESS files to CSS, node-sass with npm is utilized.</li> <br>
 <li>For JS: JQuery is applied</li>
-  </ul>
+ </ul>
+### Responsivity
+<ul>
+<li>Fully Responsive</li> <br>
+<li>First breakpoint: 1000px </li> <br>
+<li>Second breakpoint: 900px </li>
+<li>Third breakpoint: 620px </li>
+</ul>
   
 ## Short Video
 <ul>

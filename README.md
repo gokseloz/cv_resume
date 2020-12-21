@@ -16,6 +16,7 @@
 <li>For CSS: LESS preprocessor is applied. In order to compile LESS files to CSS, node-sass with npm is utilized.</li> <br>
 <li>For JS: JQuery is applied</li>
  </ul>
+ 
 ### Responsivity
 <ul>
 <li>Fully Responsive</li> <br>

@@ -71,12 +71,10 @@ next.on("click", function(){
     if(counter < max){
         counter++;
         wrapperTestimoninals.css({"left": "-100" * counter + "%", "transition": "left 1s"})
-        console.log(counter)
     }
     else if(counter == 2){
         counter = 0;
         wrapperTestimoninals.css({"left": "-100" * counter + "%", "transition": "left 0s"})
-        console.log(counter)
     }
 })
 
@@ -84,12 +82,10 @@ prev.on("click", function(){
     if(counter > 0){
         counter--;
         wrapperTestimoninals.css({"left": "-100" * counter + "%",  "transition": "left 1s"  })
-        console.log(counter)
     }
     else{
         counter = max;
         wrapperTestimoninals.css({"left": "-100" * counter + "%", "transition": "left 0s" })
-        console.log(counter)
     }
 })
 //end of testimonials

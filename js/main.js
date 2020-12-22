@@ -46,7 +46,7 @@ function onScroll(event) {
 }
 //end of menu-item
 
-//when clicking one of the menu item, header disappears. It works only on mobile version.
+//when clicking one of the menu item, header disappears. It works when 900px and lower.
 $(".header-nav-link").on("click", function () {
     $(".header").removeClass("is-expanded");
 })

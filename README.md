@@ -27,7 +27,7 @@
 
 ## Live demo
 <ul> 
-<li><a href="https://cv-resume.vercel.app/" target="_blank">Todo-app live</a></li>
+<li><a href="https://cv-resume.vercel.app/" target="_blank">Cv-Resume live</a></li>
 </ul>
   
 ## Short Video

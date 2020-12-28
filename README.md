@@ -29,7 +29,7 @@
 <ul>
 <li>In issues, you can find a short video of the website </li>
 &nbsp &nbsp &nbsp OR
-<li>you can reach it: https://user-images.githubusercontent.com/72968539/102824780-c9f45b00-43dd-11eb-8726-5d4de74b376d.mp4 </li>
+<li><a href ="https://user-images.githubusercontent.com/72968539/102824780-c9f45b00-43dd-11eb-8726-5d4de74b376d.mp4" target="_blank">you can reach it from here</a></li>
 </ul>
 
 ## ScreenShots

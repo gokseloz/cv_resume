@@ -24,6 +24,10 @@
 <li>Second breakpoint: 900px </li>
 <li>Third breakpoint: 620px </li>
 </ul>
+
+<ul> 
+<li><a href="https://cv-resume.vercel.app/" target="_blank">Todo-app live</a></li>
+</ul>
   
 ## Short Video
 <ul>

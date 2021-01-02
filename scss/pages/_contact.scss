@@ -1,9 +1,8 @@
 .contact {
     width: 100%;
-    height: auto;
+    height: 100vh;
     background-color: $gray-dark;
-    margin-top: 10px;
-    padding-bottom: 350px;
+    display: none;
 
     .contact-content {
         display: flex;
@@ -24,7 +23,7 @@
             background-color: $gray;
             @include flexCentering(column);
             padding: 20px;
-            border: 1px solid #444;
+            border: 1px solid $border-gray;
             transition: transform .5s;
             margin-bottom: 40px;
 
@@ -133,11 +132,11 @@
                     width: 100%;
                     background: none;
                     outline: none;
-                    border: 1px solid #444;
+                    border: 1px solid $border-gray;
                     padding: 10px;
                     box-sizing: border-box;
                     color: $secondary;
-                    font-family: 'Lato', sans-serif;
+                    font-family: $font-lato, sans-serif;
                     position: relative;
 
                     &:focus+.form-control {
@@ -169,7 +168,7 @@
                     padding: 3px;
                     background-color: red;
                     color: $primary;
-                    font-family: 'Lato', sans-serif;
+                    font-family: $font-lato, sans-serif;
                     visibility: hidden;
 
                     &::after {
@@ -202,7 +201,7 @@
            
             .submit-message{
                 color: #155724;
-                font-family: 'Lato', sans-serif;
+                font-family: $font-lato, sans-serif;
                 font-size: 14px;
                 padding-right: 20px;
 

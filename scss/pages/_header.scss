@@ -7,16 +7,26 @@
     box-sizing: border-box;
     z-index: 50;
     transition: margin-left .3s cubic-bezier(1, 0.2, 0.2, 1);
+    overflow-y: auto;
+    scrollbar-width: none;
+    &::-webkit-scrollbar{
+        display: none;
+    }
+
 
     &.is-expanded{
         margin-left: 0;
+        opacity: 1;
+        visibility: visible;
     }
 
     @media (max-width:900px) {
        margin-left: -100%;
        margin-top: 50px;
        width: 270px;
-       box-shadow: 1px 0px 10px rgba(#000 , 0.3)
+       box-shadow: 1px 0px 10px rgba(#000 , 0.3);
+       opacity: 0;
+       visibility: hidden;
     }
 
     &-content {

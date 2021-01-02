@@ -1,8 +1,8 @@
 .aboutMe {
     width: 100%;
-    height: auto;
+    height: 100vh;
     background-color: $gray-dark;
-    margin-top: 10px;
+    display: none;
 
     &-content {
         display: flex;
@@ -42,7 +42,7 @@
 
             p {
                 color: $secondary;
-                font-family: 'Lato', sans-serif;
+                font-family: $font-lato, sans-serif;
                 font-size: 14px;
                 line-height: 25px;
                 margin-top: 10px;
@@ -82,7 +82,7 @@
             }
 
             .testimonials-content {
-                border: 1px solid #444;
+                border: 1px solid $border-gray;
                 border-radius: 7px;
                 padding: 20px;
                 box-sizing: border-box;
@@ -97,7 +97,7 @@
 
                 .testimonials-text {
                     color: $secondary;
-                    font-family: 'Lato', sans-serif;
+                    font-family: $font-lato, sans-serif;
                     font-style: italic;
                     font-size: 14px;
                     line-height: 20px;
@@ -260,7 +260,7 @@
 
                 p {
                     color: $secondary;
-                    font-family: 'Lato', sans-serif;
+                    font-family: $font-lato, sans-serif;
                     font-size: 14px;
                     margin-top: 10px;
                     line-height: 25px;

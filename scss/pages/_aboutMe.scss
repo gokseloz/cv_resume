@@ -152,6 +152,8 @@
 
             .prev,
             .next {
+                border: none;
+                outline: none;
                 cursor: pointer;
                 position: absolute;
                 top: 75%;

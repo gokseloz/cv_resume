@@ -223,6 +223,8 @@
     border: 2px solid $gray;
     transition: border .2s;
     cursor: pointer;
+    outline: none;
+    background: none;
 
     &:hover {
         border: 1px solid #fff;

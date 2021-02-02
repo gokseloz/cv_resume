@@ -20,7 +20,7 @@
         <header class="header">
             <div class="header-content">
                 <div class="header-img">
-                    <a href="">
+                    <a href="#home" aria-label="go to homepage">
                         <i class="fas fa-user"></i>
                     </a>
                 </div>
@@ -28,7 +28,7 @@
                     <h2 class="main-title">Frodo Baggins</h2>
                     <p class="sub-title">Web Designer</p>
                 </div>
-                <div class="header-nav">
+                <nav class="header-nav">
                     <ul class="header-nav-item">
                         <li>
                             <a href="#" id="home-btn" class="header-nav-link link-home target">Home</a>
@@ -49,35 +49,35 @@
                             <a href="#" id="contact-btn" class="header-nav-link link-contact">Contact</a>
                         </li>
                     </ul>
-                </div>
+                </nav>
 
-                <div class="header-social">
-                    <a href="" class="header-social-link">
+                <nav class="header-social">
+                    <a href="https://twitter.com" class="header-social-link" aria-label="twitter">
                         <i class="fab fa-twitter"></i>
                     </a>
-                    <a href="" class="header-social-link">
+                    <a href="https://linkedin.com" class="header-social-link" aria-label="linkedin">
                         <i class="fab fa-linkedin-in"></i>
                     </a>
-                    <a href="" class="header-social-link">
+                    <a href="https://github.com" class="header-social-link" aria-label="github">
                         <i class="fab fa-github"></i>
                     </a>
-                    <a href="" class="header-social-link">
+                    <a href="https://myaccount.google.com" class="header-social-link" aria-label="google+">
                         <i class="fab fa-google-plus-g"></i>
                     </a>
-                </div>
+                </nav>
             </div>
         </header>
 
         <div class="header-mobile">
             <div class="mobile-title-block">
-                <a href="#" class="mobile-logo">
+                <a href="#" class="mobile-logo" aria-label="go to homepage">
                     <i class="fas fa-user"></i>
                 </a>
                 <h2 class="mobile-title">Frodo Baggins</h2>
             </div>
 
             <a class="mobile-hamburgerMenu">
-                <i class="fas fa-bars"></i>
+                <i class="fas fa-bars" aria-label="open menu"></i>
             </a>
 
         </div>
@@ -99,7 +99,7 @@
                     <div class="inner">
                         <div class="title">
                             <h2 class="section-title">About Me</h2>
-                            <h5 class="section-description">Developer, Determined, Creative </h5>
+                            <small class="section-description">Developer, Determined, Creative </small>
                         </div>
                         <div class="aboutMe-content">
                             <div class="aboutMe-content-row1">
@@ -171,8 +171,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <a class="prev">&#10094;</a>
-                                        <a class="next">&#10095;</a>
+                                        <a class="prev" aria-label="previous testimonial">&#10094;</a>
+                                        <a class="next" aria-label="next testimonial">&#10095;</a>
                                     </div>
                                 </div>
                             </div>
@@ -209,16 +209,16 @@
                                 </div>
                                 <div class="row3-box2">
                                     <div class="client-item">
-                                        <img src="img/client1.png" alt="">
+                                        <img src="img/client1.png" alt="clint mooi">
                                     </div>
                                     <div class="client-item">
-                                        <img src="img/client2.png" alt="">
+                                        <img src="img/client2.png" alt="clint goed">
                                     </div>
                                     <div class="client-item">
-                                        <img src="img/client3.png" alt="">
+                                        <img src="img/client3.png" alt="clint alphabet">
                                     </div>
                                     <div class="client-item">
-                                        <img src="img/client4.png" alt="">
+                                        <img src="img/client4.png" alt="clint skitterend">
                                     </div>
                                 </div>
                             </div>
@@ -230,102 +230,116 @@
                     <div class="inner">
                         <div class="title">
                             <h2 class="section-title">Resume</h2>
-                            <h5 class="section-description">8 years of experience</h5>
+                            <small class="section-description">8 years of experience</small>
                         </div>
                         <div class="resume-content">
                             <div class="resume-content-row1">
                                 <div class="row1-column1">
                                     <h3 class="box-heading">Education</h3>
-                                    <div class="timeline">
-                                        <div class="timeline-item">
+                                    <section class="timeline">
+                                        <article class="timeline-item">
                                             <span class="item-period">2020 - current</span>
-                                            <h4 class="item-title">Software Engineering, MEng</h4>
+                                            <h4 class="item-title">Software Engineering, Master of Eng</h4>
                                             <small class="item-subtitle">Hobbit School University</small>
                                             <p class="item-info">Frontend, Backend, Design, Network, Programming,
                                                 Languages</p>
-                                        </div>
-                                        <div class="timeline-item">
+                                        </article>
+                                        <article class="timeline-item">
                                             <span class="item-period">2012-2013</span>
-                                            <h4 class="item-title">Computer Engineering, BSc</h4>
+                                            <h4 class="item-title">Computer Engineering, Bachelor of Science</h4>
                                             <small class="item-subtitle">Shire University</small>
                                             <p class="item-info">Game development, App development, Web development </p>
-                                        </div>
-                                        <div class="timeline-item">
+                                        </article>
+                                        <article class="timeline-item">
                                             <span class="item-period">2009-2014</span>
-                                            <h4 class="item-title">Comptuter Engineering, BSc</h4>
+                                            <h4 class="item-title">Computer Engineering, Bachelor of Science</h4>
                                             <small class="item-subtitle">Mordor University</small>
                                             <p class="item-info">Testing, Debugging, Hardwares, Softwares, Internet,
                                                 https </p>
-                                        </div>
-                                    </div>
+                                        </article>
+                                    </section>
                                 </div>
                                 <div class="row1-column2">
-                                    <h3 class="box-heading">Experience</h3>
-                                    <div class="timeline">
-                                        <div class="timeline-item">
+                                    <h3 class="box-heading">Experiences</h3>
+                                    <section class="timeline">
+                                        <article class="timeline-item">
                                             <span class="item-period">Mar 2019 - Sep 2020</span>
                                             <h4 class="item-title">Frontend Developer</h4>
                                             <small class="item-subtitle">Gondor Company</small>
                                             <p class="item-info">Coding, testing, reviewing, automation</p>
-                                        </div>
-                                        <div class="timeline-item">
+                                        </article>
+                                        <article class="timeline-item">
                                             <span class="item-period">June 2017 - Mar 2018</span>
                                             <h4 class="item-title">Frontend Developer</h4>
                                             <small class="item-subtitle">Rohan Company</small>
                                             <p class="item-info">Design and implement solutions, developing UI</p>
-                                        </div>
-                                        <div class="timeline-item">
+                                        </article>
+                                        <article class="timeline-item">
                                             <span class="item-period">Oct 2016 - Jun 2017</span>
                                             <h4 class="item-title">Frontend Developer</h4>
                                             <small class="item-subtitle">Isengard Company</small>
                                             <p class="item-info">Improve the performance and the usability of the
                                                 websites
                                             </p>
-                                        </div>
-                                    </div>
+                                        </article>
+                                    </section>
                                 </div>
 
                                 <div class="row1-column3">
                                     <h3 class="box-heading">Design Skills</h3>
                                     <div class="skills">
                                         <h4 class="skill-name skill-name-web">Web Design</h4>
-                                        <div class="skill-container skill-container-web">
-                                            <div class="skill-percentage skill-percentage-web"></div>
+                                        <div class="skill-container skill-container-web"
+                                            aria-label="web design progress bar wrapper">
+                                            <div class="skill-percentage skill-percentage-web" role="progressbar"
+                                                aria-valuenow="50" aria-valuemax="100" aria-valuemin="0"></div>
                                         </div>
                                         <h4 class="skill-name skill-name-graphic">Graphic Design</h4>
-                                        <div class="skill-container skill-container-graphic">
-                                            <div class="skill-percentage skill-percentage-graphic"></div>
+                                        <div class="skill-container skill-container-graphic"
+                                            aria-label="graphic design progress bar wrapper">
+                                            <div class="skill-percentage skill-percentage-graphic" role="progressbar"
+                                                aria-valuenow="40" aria-valuemax="100" aria-valuemin="0"></div>
                                         </div>
                                         <h4 class="skill-name skill-name-print">Print Design</h4>
-                                        <div class="skill-container skill-container-print">
-                                            <div class="skill-percentage skill-percentage-print"></div>
+                                        <div class="skill-container skill-container-print"
+                                            aria-label="print design progress bar wrapper">
+                                            <div class="skill-percentage skill-percentage-print" role="progressbar"
+                                                aria-valuenow="40" aria-valuemax="100" aria-valuemin="0"></div>
                                         </div>
                                     </div>
                                     <br>
                                     <h3 class="box-heading">Coding Skills</h3>
                                     <div class="skills">
-                                        <h4 class="skill-name">HTML</h4>
-                                        <div class="skill-container skill-container-html">
-                                            <div class="skill-percentage skill-percentage-html"></div>
+                                        <h4 class="skill-name">HTML </h4>
+                                        <div class="skill-container skill-container-html"
+                                            aria-label="html progress bar wrapper">
+                                            <div class="skill-percentage skill-percentage-html" role="progressbar"
+                                                aria-valuenow="70" aria-valuemax="100" aria-valuemin="0"></div>
                                         </div>
                                         <h4 class="skill-name">CSS</h4>
-                                        <div class="skill-container skill-container-css">
-                                            <div class="skill-percentage skill-percentage-css"></div>
+                                        <div class="skill-container skill-container-css"
+                                            aria-label="css progress bar wrapper">
+                                            <div class="skill-percentage skill-percentage-css" role="progressbar"
+                                                aria-valuenow="70" aria-valuemax="100" aria-valuemin="0"></div>
                                         </div>
-                                        <h4 class="skill-name">JavaScript</h4>
-                                        <div class="skill-container skill-container-js">
-                                            <div class="skill-percentage skill-percentage-js"></div>
+                                        <h4 class="skill-name">JavaScript </h4>
+                                        <div class="skill-container skill-container-js"
+                                            aria-label="javascript progress bar wrapper">
+                                            <div class="skill-percentage skill-percentage-js" role="progressbar"
+                                                aria-valuenow="40" aria-valuemax="100" aria-valuemin="0"></div>
                                         </div>
                                         <h4 class="skill-name">JQuery</h4>
-                                        <div class="skill-container skill-container-jquery">
-                                            <div class="skill-percentage skill-percentage-jquery"></div>
+                                        <div class="skill-container skill-container-jquery"
+                                            aria-label="jquery progress bar wrapper">
+                                            <div class="skill-percentage skill-percentage-jquery" role="progressbar"
+                                                aria-valuenow="30" aria-valuemax="100" aria-valuemin="0"></div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="">
-                                <a href="#" class="btn" target="_blank">Download CV</a>
-                            </div>
+
+                            <a href="#" class="btn" target="_blank">Download CV</a>
+
                         </div>
                     </div>
                 </section>
@@ -334,7 +348,7 @@
                     <div class="inner">
                         <div class="title">
                             <h2 class="section-title">Portfolio</h2>
-                            <h5 class="section-description">My Best Works</h5>
+                            <small class="section-description">My Best Works</small>
                         </div>
                         <div class="portfolio-content">
                             <div class="portfolio-content-row1">
@@ -350,7 +364,7 @@
                                     <div class="project-img">
                                         <img src="https://images.pexels.com/photos/1684149/pexels-photo-1684149.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
                                             alt="">
-                                        <a href="#" class="project-link"></a>
+                                        <a href="#" class="project-link" aria-label="portfolio-1 media project"></a>
                                     </div>
                                     <h2 class="project-title">Portfolio-1</h2>
                                     <p class="project-subtitle">Media Project</p>
@@ -360,6 +374,8 @@
                                     <div class="project-img">
                                         <img src="https://images.pexels.com/photos/2395249/pexels-photo-2395249.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
                                             alt="">
+                                        <a href="#" class="project-link"
+                                            aria-label="portfolio-2 illustration project"></a>
                                     </div>
                                     <h2 class="project-title">Portfolio-2</h2>
                                     <p class="project-subtitle">Illustration Project</p>
@@ -369,6 +385,7 @@
                                     <div class="project-img">
                                         <img src="https://images.pexels.com/photos/2542012/pexels-photo-2542012.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
                                             alt="">
+                                        <a href="#" class="project-link" aria-label="portfolio-3 media project"></a>
                                     </div>
                                     <h2 class="project-title">Portfolio-3</h2>
                                     <p class="project-subtitle">Media Project</p>
@@ -378,6 +395,7 @@
                                     <div class="project-img">
                                         <img src="https://images.pexels.com/photos/358904/pexels-photo-358904.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
                                             alt="">
+                                        <a href="#" class="project-link" aria-label="portfolio-4 video project"></a>
                                     </div>
                                     <h2 class="project-title">Portfolio-4</h2>
                                     <p class="project-subtitle">Video Project</p>
@@ -386,7 +404,7 @@
                                     <div class="project-img">
                                         <img src="https://images.pexels.com/photos/1005324/literature-book-open-pages-1005324.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
                                             alt="">
-                                        <a href="#" class="project-link"></a>
+                                        <a href="#" class="project-link" aria-label="portfolio-5 video project"></a>
                                     </div>
                                     <h2 class="project-title">Portfolio-5</h2>
                                     <p class="project-subtitle">Video Project</p>
@@ -396,6 +414,9 @@
                                     <div class="project-img">
                                         <img src="https://images.pexels.com/photos/311458/pexels-photo-311458.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
                                             alt="">
+                                        <a href="#" class="project-link"
+                                            aria-label="portfolio-6 illustration project"></a>
+
                                     </div>
                                     <h2 class="project-title">Portfolio-6</h2>
                                     <p class="project-subtitle">Illustration Project</p>
@@ -405,6 +426,8 @@
                                     <div class="project-img">
                                         <img src="https://images.pexels.com/photos/572897/pexels-photo-572897.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
                                             alt="">
+                                        <a href="#" class="project-link" aria-label="portfolio-7 media project "></a>
+
                                     </div>
                                     <h2 class="project-title">Portfolio-7</h2>
                                     <p class="project-subtitle">Media Project</p>
@@ -414,6 +437,8 @@
                                     <div class="project-img">
                                         <img src="https://images.pexels.com/photos/139259/pexels-photo-139259.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
                                             alt="">
+                                        <a href="#" class="project-link" aria-label="portfolio-8 video project"></a>
+
                                     </div>
                                     <h2 class="project-title">Portfolio-8</h2>
                                     <p class="project-subtitle">Video Project</p>
@@ -427,7 +452,7 @@
                     <div class="inner">
                         <div class="title">
                             <h2 class="section-title">Blog</h2>
-                            <h5 class="section-description">My Diary</h5>
+                            <small class="section-description">My Diary</small>
                         </div>
                         <div class="blog-content">
                             <div class="blog-content-row1">
@@ -435,11 +460,11 @@
                                     <div class="post-img">
                                         <img src="https://lmpixels.com/wp/kerge-wp/demo-op-2-dark/wp-content/uploads/sites/14/2018/03/blog_post_1_full.jpg"
                                             alt="">
-                                        <a href="#" class="post-link post-1-link"></a>
+                                        <a href="#" class="post-link post-1-link" aria-label="post-6"></a>
                                     </div>
                                     <div class="post-info">
-                                        <small class="post-date">01 Jan 2020</small>
-                                        <a href="" class="post-title">
+                                        <time class="post-date" datetime="2020-06-01">01 Jun 2020</time>
+                                        <a href="#" class="post-title">
                                             Most Popular CSS Frameworks
                                         </a>
                                     </div>
@@ -449,10 +474,10 @@
                                     <div class="post-img">
                                         <img src="https://lmpixels.com/wp/kerge-wp/demo-op-2-dark/wp-content/uploads/sites/14/2018/03/blog_post_2_full.jpg"
                                             alt="">
-                                        <a href="#" class="post-link post-2-link"></a>
+                                        <a href="#" class="post-link post-2-link" aria-label="post-5"></a>
                                     </div>
                                     <div class="post-info">
-                                        <small class="post-date">01 Feb 2020</small>
+                                        <time class="post-date" datetime="2020-05-01">01 May 2020</time>
                                         <a href="" class="post-title">
                                             Bootstrap as a CSS Framework
                                         </a>
@@ -463,10 +488,10 @@
                                     <div class="post-img">
                                         <img src="https://lmpixels.com/wp/kerge-wp/demo-op-2-dark/wp-content/uploads/sites/14/2018/03/blog_post_3_full.jpg"
                                             alt="">
-                                        <a href="#" class="post-link post-3-link"></a>
+                                        <a href="#" class="post-link post-3-link" aria-label="post-4"></a>
                                     </div>
                                     <div class="post-info">
-                                        <small class="post-date">01 Mar 2020</small>
+                                        <time class="post-date" datetime="2020-04-01">01 April 2020</time>
                                         <a href="" class="post-title">
                                             Designed for Everyone, Everywhere
                                         </a>
@@ -477,10 +502,10 @@
                                     <div class="post-img">
                                         <img src="https://lmpixels.com/wp/kerge-wp/demo-op-2-dark/wp-content/uploads/sites/14/2018/03/blog_post_4_full.jpg"
                                             alt="">
-                                        <a href="#" class="post-link post-4-link"></a>
+                                        <a href="#" class="post-link post-4-link" aria-label="post-3"></a>
                                     </div>
                                     <div class="post-info">
-                                        <small class="post-date">01 April 2020</small>
+                                        <time class="post-date" datetime="2020-03-01">>01 Mar 2020</time>
                                         <a href="" class="post-title">
                                             Introduction to CSS Preprocessors
                                         </a>
@@ -491,10 +516,10 @@
                                     <div class="post-img">
                                         <img src="https://lmpixels.com/wp/kerge-wp/demo-op-2-dark/wp-content/uploads/sites/14/2018/03/blog_post_5_full.jpg"
                                             alt="">
-                                        <a href="#" class="post-link post-5-link"></a>
+                                        <a href="#" class="post-link post-5-link" aria-label="post-2"></a>
                                     </div>
                                     <div class="post-info">
-                                        <small class="post-date">01 May 2020</small>
+                                        <time class="post-date" datetime="2020-02-01">01 Feb 2020</time>
                                         <a href="" class="post-title">
                                             Original and Innovative Web Layouts
                                         </a>
@@ -505,10 +530,10 @@
                                     <div class="post-img">
                                         <img src="https://lmpixels.com/wp/kerge-wp/demo-op-2-dark/wp-content/uploads/sites/14/2018/03/blog_post_6_full.jpg"
                                             alt="">
-                                        <a href="#" class="post-link post-6-link"></a>
+                                        <a href="#" class="post-link post-6-link" aria-label="post-1"></a>
                                     </div>
                                     <div class="post-info">
-                                        <small class="post-date">01 June 2020</small>
+                                        <time class="post-date" datetime="2020-01-01">01 Jan 2020</time>
                                         <a href="" class="post-title">
                                             Creative Designs
                                         </a>
@@ -983,19 +1008,19 @@
                 <div class="inner">
                     <div class="title">
                         <h2 class="section-title">Contact</h2>
-                        <h5 class="section-description">Get in Touch</h5>
+                        <small class="section-description">Get in Touch</small>
                     </div>
                     <div class="contact-content">
                         <div class="contact-content-row1">
-                            <div class="row1-box">
+                            <div class="row1-box" aria-label="phone number">
                                 <i class="fas fa-phone-alt"></i>
-                                <h4 class="">123-456-654-321</h4>
+                                <h4>123-456-654-321</h4>
                             </div>
-                            <div class="row1-box">
+                            <div class="row1-box" aria-label="location">
                                 <i class="fas fa-map-marker-alt"></i>
                                 <h4>Shire</h4>
                             </div>
-                            <div class="row1-box">
+                            <div class="row1-box" aria-label="email">
                                 <i class="far fa-envelope"></i>
                                 <h4>fbaggins@example.com</h4>
                             </div>
@@ -1011,8 +1036,7 @@
                                 <h3 class="box-heading">Find Me on Map</h3>
                                 <iframe
                                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96567.32789516836!2d175.3676845517948!3d-40.85587339091854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d40e9062d25d34d%3A0xd4b4384133181b04!2sTararua%20Forest%20Park!5e0!3m2!1str!2sde!4v1607423089014!5m2!1str!2sde"
-                                    frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
-                                    tabindex="0"></iframe>
+                                    style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                             </div>
 
                             <div class="row2-box row2-box2">
@@ -1024,8 +1048,7 @@
                                 </div>
 
 
-                                <form class="row2-box2-form" action="">
-
+                                <form class="row2-box2-form">
                                     <div class="form-item">
                                         <input class="form-input" type="text" placeholder="Full Name"
                                             oninvalid="setCustomValidity('')" required>
@@ -1055,8 +1078,7 @@
                     </div>
                 </div>
             </section>
-    </div>
-    </main>
+        </main>
     </div>
 
     <script src="js/main.js"></script>

@@ -10,8 +10,6 @@
     }
 }
 
-//end of inner
-
 //title: that is a block that contains section-title and section-description
 .title {
     display: flex;
@@ -22,8 +20,6 @@
         margin-bottom: 30px;
     }
 }
-
-//end of title
 
 //section title: ex; About Me, Resume, Portfolio, Blog, Contact
 .section-title {
@@ -51,8 +47,6 @@
     }
 }
 
-//end of section title
-
 //section description: short description which explains the highlights of the page, located near the title, ex;Developer, Determined, Creative,
 .section-description {
     margin-left: 20px;
@@ -64,8 +58,6 @@
         font-size: 12px;
     }
 }
-
-//end of description
 
 //box-headers ex:testimonials, services, clients, education...
 .box-heading {
@@ -87,8 +79,6 @@
         background-color: $yellow;
     }
 }
-
-//end of box-headers ex:testimonials, services, clients, education...
 
 //button : at the bottom of some sections, there is a button, for ex; "Download CV" button in resume section, "See All Posts" button in blog section...
 .btn {
@@ -113,8 +103,6 @@
         color: $gray;
     }
 }
-
-//end of button
 
 //timeline item in resume section: that expresses the each time cycle in the resume section
 .timeline-item {
@@ -188,8 +176,6 @@
         line-height: 25px;
     }
 }
-
-//end of timeline item
 
 //skills in resume section: this section includes each skill for ex: Web Design, HTML, CSS, JavaScript...
 .skill-name {
